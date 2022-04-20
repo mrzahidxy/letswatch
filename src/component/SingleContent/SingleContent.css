@@ -1,0 +1,33 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.media:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 860px){
+    .media{
+        width: 90%;
+    }
+}
+
+
+.title{
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+}
